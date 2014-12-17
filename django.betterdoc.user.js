@@ -11,6 +11,8 @@
 
 $(document).ready(function() {
   $('body').css('color', 'black');
-  $('a').css('color', '#AD2E2E');
-  $('.highlight').css('background', '#EEE');
+  $('#docs-content a').css('color', '#AD2E2E');
+  $('#docs-content .highlight').css('background', '#EEE');
+  $('#docs-content .note').css('background', '#DEFCEB');
+  $('#docs-content .warning').css('background-color', '#FFF3AB');
 });
